@@ -1,0 +1,139 @@
+/*========= GAME ==========*/
+
+body{
+	font-family: sans-serif;
+	margin: 0;
+}
+h1{
+	text-align: center;
+	color: crimson;
+	font-size: -webkit-xxx-large;
+}
+h2{
+	text-align: center;
+	color: mediumvioletred;
+}
+#wrap{
+	width: 320px;
+	height: 452px;
+	background: #eee;
+	position: relative;
+}
+
+#ready-wrap{
+	display: block;
+	width: 320px;
+	margin: auto;
+
+}
+.des{
+	text-align: center;
+	color: mediumvioletred;
+	font-size: 22px;
+}
+.start {
+	margin: auto;
+	display: block;
+	font-size: 3em;
+	border: 3px solid #ccc;
+	background: linear-gradient(crimson, mediumvioletred);
+	color: navajowhite;
+}
+#start-wrap{
+	display: none;
+	width: 320px;
+	margin: auto;
+}
+#gift-wrap{
+	width: 100%;
+	height: 384px;
+	position: relative;
+}
+.dagift{
+	width: 64px;
+	height: 64px;
+	position: absolute;
+	opacity: 1;
+	transition: all .5s;
+}
+.dagift iframe{
+	height: 64px;
+}
+#player {
+	width: 64px;
+	height: 100px;
+	position: absolute;
+	bottom: 0px;
+}
+#player iframe {
+	height: 100px;
+}
+div#keyin {
+	width: 320px;
+	text-align: center;
+	padding: 1em 0em;
+}
+button.thekey {
+	font-size: 2em;
+	width: 4em;
+	line-height: 2em;
+	margin: 0em 0em;
+	background: #FBF3FF;
+	border: 1px solid darkorchid;
+	border-radius: 8px;
+	font-weight: bold;
+	color: rebeccapurple;
+}
+button#ll{
+
+}
+button#rr{
+
+}
+button {
+	outline: none;
+	cursor: pointer;
+}
+iframe{
+	border: 0;
+	width: 64px;
+}
+
+/*========= PLAYER ==========*/
+div#draw-player {
+	width: 64px;
+	height: 100px;
+	position: relative;
+}
+
+/*========= GIFT ==========*/
+
+div#draw-gift-1 {
+	width: 64px;
+	height: 64px;
+}
+div#draw-gift-2 {
+	width: 64px;
+	height: 64px;
+	background: url(psyduck.png);
+}
+div#draw-gift-3 {
+	width: 64px;
+	height: 64px;
+	background: url(snorlax.png);
+}
+.reset{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#bodyy{
+	width: 64px;
+	height: 64px;
+	background: url(pokeball.png);
+}
+#pikachu {
+    width: 64px;
+    height: 64px;
+    background: url(pikachu.png);
+}
